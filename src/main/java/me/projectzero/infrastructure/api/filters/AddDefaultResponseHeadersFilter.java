@@ -1,4 +1,4 @@
-package me.projectzero.infrastructure.filters;
+package me.projectzero.infrastructure.api.filters;
 
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;
