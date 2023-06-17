@@ -2,8 +2,8 @@ package me.projectzero.api.exceptionhandlers;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtException;
-import me.projectzero.domain.enumeration.ErrorCode;
-import me.projectzero.service.error.ServiceErrorResponse;
+import me.projectzero.core.common.enumeration.ErrorCode;
+import me.projectzero.service.common.error.ServiceErrorResponse;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;

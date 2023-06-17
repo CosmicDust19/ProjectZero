@@ -2,9 +2,9 @@ package me.projectzero.api.exceptionhandlers;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
-import me.projectzero.domain.enumeration.ErrorCode;
-import me.projectzero.service.error.ServiceErrorResponse;
-import me.projectzero.service.error.sub.ValidationError;
+import me.projectzero.core.common.enumeration.ErrorCode;
+import me.projectzero.service.common.error.ServiceErrorResponse;
+import me.projectzero.service.common.error.sub.ValidationError;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

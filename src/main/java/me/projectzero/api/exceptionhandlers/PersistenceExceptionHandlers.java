@@ -2,10 +2,10 @@ package me.projectzero.api.exceptionhandlers;
 
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.persistence.PersistenceException;
-import me.projectzero.domain.enumeration.ErrorCode;
-import me.projectzero.domain.valueobject.DbConstraint;
-import me.projectzero.infrastructure.common.util.StringUtils;
-import me.projectzero.service.error.ServiceErrorResponse;
+import me.projectzero.core.common.enumeration.ErrorCode;
+import me.projectzero.domain.common.valueobjects.DbConstraint;
+import me.projectzero.core.common.util.StringUtils;
+import me.projectzero.service.common.error.ServiceErrorResponse;
 import org.springframework.core.annotation.Order;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
